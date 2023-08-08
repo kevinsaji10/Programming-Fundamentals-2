@@ -1,0 +1,62 @@
+1. Please submit ICE by 12am Sat every week
+
+2. only need to submit .java files, dont submit .class files
+
+3. dont submit 1 java file with all your class files. every java file should only
+have 1 class file
+
+4. class file should only start with upper camel case. variables should start with
+lower camel case.
+
+5. make the variable name meaningful
+
+6. if you are creating a scanner object, you can use it again and again and again. you 
+dont have to create multiple scanner objects for each user input
+
+7. if you are using a boolean variable, if it is assigned true and you want to check if it is false use ! operator.
+E.g. 
+boolean isSameWord = true;
+while(!isSameWord) {
+    // write code here that executes if isSameWord is false
+}
+
+8. use a for loop if you know the number of iterations instead of a while loop
+
+9. switch statement variation (not tested):
+
+public static void main (String[] args) {
+    int x = 3;
+    int y = switch (x) {
+    case 3: yield 1;
+    case 2: yield 2;
+    default: yield 7;
+    };
+    System.out.println(y);
+}
+
+10. to find out how fast your code runs:
+
+long start = System.currentTimeMillis();
+// write code here
+long end = System.currentTimeMillis();
+
+system.out.println(end-start);
+
+11. StringBuilder class is a mutable version of Strings. When you use StringBuilder class to create strings by appending it is faster than concatenation using the + operator
+
+12. When you use the private keyword in front of an instance variable, you cant touch them directly so to access them you need
+to create methods
+
+13. New Line Syntax:
+- /r is the carriage return for Windows
+- i think there may be some differences for new line operator when using printf() in java for windows, im not really StringBuilder
+
+14. how to create java documentation web page.
+	- create a java file containing a class (E.g. human.java)
+	- once you have created all the variables and methods associated with the class, run:
+	javadocs -d docs Human.java 
+	(i think this is the code, not 100% sure)
+	
+	- this will basically create a web page like how it is when u go into the java documentation and it will
+	show the Human class that you created
+

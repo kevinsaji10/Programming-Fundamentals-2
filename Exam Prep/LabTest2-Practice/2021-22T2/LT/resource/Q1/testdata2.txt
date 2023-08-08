@@ -1,0 +1,4 @@
+Name:Age:MedicalCondition:School:VaccineCentre:Vaccine:ShotType
+Ben Tan:45:NA:Bukit Merah CC:Moderna:B
+Xavier Lee:M:Queenstown CC:Pfizer:F
+Jane Lim:70:High Blood,Diabetes:Tiong Bahru CC:Pfizer:S

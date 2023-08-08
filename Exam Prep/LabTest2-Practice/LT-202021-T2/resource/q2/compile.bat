@@ -1,0 +1,1 @@
+javac -proc:none -d output -cp "src:references/entity/*:references/log4j2/*:references" src/q2/VendingMachineTest.java

@@ -1,0 +1,1 @@
+java -cp "output:references/entity/money.jar:references/log4j2/*:config:references" q2.VendingMachineTest 

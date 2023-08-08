@@ -1,0 +1,1 @@
+java -cp lib/*;classFiles farming.app.AnimalFarmTest

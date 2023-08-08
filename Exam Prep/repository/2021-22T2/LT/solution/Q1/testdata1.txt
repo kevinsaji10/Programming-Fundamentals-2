@@ -1,0 +1,10 @@
+Name:Age:MedicalCondition:School:VaccineCentre:Vaccine:ShotType
+Ben Tan:45:NA:Bukit Merah CC:Moderna:B
+Xavier Chris Lee:17:NA:Prince Secondary School:Queenstown CC:Pfizer:S
+Jane Lim:70:High Blood,Diabetes,Hypertension:Tiong Bahru CC:Pfizer:S
+Shirley Low:16:High Blood:King Secondary School:Queenstown CC:Pfizer:S
+Fabian Yong:25:Diabetes:Tiong Bahru CC:Pfizer:S
+John Neo:35:Hypertension:Queenstown CC:Moderna:F
+Charles Yang:65:NA:Tiong Bahru CC:Pfizer:F
+Angie Lau:10:NA:Princess Secondary School:Bukit Merah CC:Moderna:S
+Jack Yeo:25:NA:Queenstown CC:Moderna:B

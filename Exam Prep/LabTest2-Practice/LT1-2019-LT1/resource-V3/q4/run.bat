@@ -1,0 +1,1 @@
+java -cp "output:jackson-lib/*:poi-lib/*:poi-lib/lib/*:poi-lib/ooxml-lib/*" q4.App

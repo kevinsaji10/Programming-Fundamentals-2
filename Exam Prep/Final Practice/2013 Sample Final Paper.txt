@@ -1,0 +1,32 @@
+C
+E
+D
+E // do thrown unchecked exceptions have to be caught? what is the consequence of not having a try catch in the main method in this scenario
+A x C (static variable)
+E
+E
+D
+
+
+Person p = new Person("Alice, 25);
+Person[] array = new Person[2];
+array[0] = p
+array[1] = new Person("Bob", 30);
+p = new Person("Joe", 22);
+
+Question 9 B
+
+public void startHunt(Hunter hunter) {
+	ArrayList<Treasure> treasures = this.treasureDAO.getTreasures();
+	this.randomize(treasures);
+	
+	for (Treasure t : treasures) {
+		int point = hunter.getAbilityPoint();
+		if (t.isSuccessfullyCaptured(point)) {
+			hunter.addTreasure(t);
+		}
+	}
+	
+}
+
+		
